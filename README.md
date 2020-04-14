@@ -21,16 +21,16 @@ Example:
 ->
 ```
 {
-  container: {
-    foo: "bar",
-    baz: [
+  "container": {
+    "foo": "bar",
+    "baz": [
       {
-        title: "First Thing",
-        description: "This is the first thing's description."
+        "title": "First Thing",
+        "description": "This is the first thing's description."
       },
       {
-        title: "Second Thing",
-        description: "This is the second thing's description."
+        "title": "Second Thing",
+        "description": "This is the second thing's description."
       }
     ]
   }
