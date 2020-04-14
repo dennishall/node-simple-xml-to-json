@@ -10,8 +10,10 @@ function getJson (node) {
 
   if (hasChildElementNodes) {
     children.forEach(child => {
-      if (!child.tagName) return;
       let childTagName = child.tagName;
+      if (!childTagName) {
+        return;
+      }
       if (json[childTagName]) {
         if (!Array.isArray(json[childTagName])) {
           json[childTagName] = [json[childTagName]];
